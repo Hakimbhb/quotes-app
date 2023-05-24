@@ -56,7 +56,7 @@ class _QuotesAppState extends State<QuotesApp> {
   myfunc() {
     setState(() {
       tit = title.text;
-      auth = title.text;
+      auth = auther.text;
 
       quot.add(
         Quotees(title: "$tit ", auther: "$auth"),
